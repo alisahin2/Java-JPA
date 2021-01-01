@@ -25,7 +25,7 @@ public class Persons {
 	@Lob
 	private String about;
 	
-	@Transient
+
 	private int salary;
 	
 	
