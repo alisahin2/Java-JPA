@@ -18,7 +18,7 @@ public class Persons {
 	@Column(name = "lastName", unique = false, nullable = false, length = 15)
 	private String lastName;
 	
-	@Temporal(TemporalType.DATE)
+	@Temporal(TemporalType.TIMESTAMP)
 	@Column(name = "birthOfDay")
 	private Date birthOfDate;
 	
