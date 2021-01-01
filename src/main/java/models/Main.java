@@ -8,11 +8,11 @@ import javax.persistence.Persistence;
 public class Main {
 
 	public static void main(String[] args) {
-		EntityManagerFactory factory = Persistence.createEntityManagerFactory("persisntece-unit");
+		EntityManagerFactory factory = Persistence.createEntityManagerFactory("persistence-unit");
 		
 		EntityManager entityManager = factory.createEntityManager();
 		
-		EntityTransaction transaction = entityManager.getTransaction();
+		//EntityTransaction transaction = entityManager.getTransaction();
 
 	}
 
